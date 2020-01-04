@@ -1,0 +1,33 @@
+---
+- name: ec2-instance launch
+  hosts: all
+  become: true
+
+  tasks:
+  - name: ec2-instance launch
+    ec2:
+      key_name: Harsh7278(Need to give your own key name from ec2-instance)
+      region: us-east-1
+      instance_type: t2.micro
+      image: ami-00068cd7555f543d5
+      group: launch-wizard-4
+      count: 1
+      aws_access_key: Need To Create On Ec2-Instance And Pest It (nned to create on ec2-instance and pest it here)
+      aws_secret_key: Need To Create On Ec2-Instance And Pest It (nned to create on ec2-instance and pest it here)
+
+
+b5dfecf7a117534525dfe836a38aa98be2c66f68 - github access token
+
+
+terraform installation:
+
+1)wget https://releases.hashicorp.com/terraform/0.12.7/terraform_0.12.7_linux_amd64.zip
+
+2)Extract the downloaded file archive
+unzip terraform_0.12.7_linux_amd64.zip
+
+3)Move the executable into a directory searched for executables
+sudo mv terraform /usr/local/bin/
+
+4)Run it
+terraform --version 
