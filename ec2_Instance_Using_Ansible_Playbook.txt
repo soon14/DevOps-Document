@@ -13,10 +13,7 @@
       group: launch-wizard-4
       count: 1
       aws_access_key: Need To Create On Ec2-Instance And Pest It (nned to create on ec2-instance and pest it here)
-      aws_secret_key: Need To Create On Ec2-Instance And Pest It (nned to create on ec2-instance and pest it here)
-
-
-b5dfecf7a117534525dfe836a38aa98be2c66f68 - github access token
+      aws_secret_key: Need To Create On Ec2-Instance And Pest It (nned to create on ec2-instance and pest it here- github access token
 
 
 terraform installation:
